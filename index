@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking News: Coach Jedd Fisch Caught in Recruiting Scandal - ESPN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #cf202e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .news-image {
+            width: 100%;
+            height: auto;
+        }
+        .article-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .author {
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        #prank {
+            display: none;
+            font-size: 24px;
+            color: red;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #news-image-end {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <script>
+        function prankUser() {
+            setTimeout(() => {
+                document.getElementById("news-content").style.display = "none";
+                document.getElementById("news-image-start").style.display = "none";
+                document.getElementById("news-image-end").style.display = "block";
+                document.getElementById("prank").style.display = "block";
+            }, 60000); // Change content after 60 seconds
+        }
+    </script>
+</head>
+<body onload="prankUser()">
+    <div class="header">ESPN</div>
+    <div class="container">
+        <h1 class="article-title">BREAKING: Coach Jedd Fisch Caught in Recruiting Scandal Involving Illegal Payments and Promises of Luxury Cars</h1>
+        <p class="author">By ESPN Staff Writer | March 31, 2025</p>
+        <img id="news-image-start" class="news-image" src="jed.webp" alt="Breaking News">
+        <div id="news-content" class="content">
+            <p>Seattle, WA — In a shocking development that has rocked the University of Washington football program, head coach Jedd Fisch is at the center of a growing scandal involving alleged illegal recruiting practices, including claims of cash payments and promises of luxury vehicles to high-profile recruits.</p>
+            <p>The scandal first came to light after an anonymous whistleblower came forward with documents and audio recordings detailing meetings between Fisch and several recruits during the past offseason. According to the whistleblower, Fisch is accused of offering top high school prospects significant sums of money as part of unofficial recruiting "perks." The recruits were reportedly promised not only financial incentives but also luxury cars and other high-end gifts in exchange for committing to play for the Huskies.</p>
+            <p>Investigators have confirmed that the recruits involved in the scandal were allegedly given lavish promises of new cars—specifically, high-end models like BMWs and Audis—along with cash payouts for signing commitments before formally entering the NCAA recruiting process.</p>
+            <p>Sources close to the investigation claim that one of Fisch’s assistant coaches, whose identity has yet to be revealed, played a key role in facilitating these illegal agreements by acting as an intermediary between Fisch and the recruits. Allegedly, meetings took place at private locations outside of the university’s official facilities to keep the activities hidden from NCAA regulators.</p>
+            <p>"I was shocked when I first heard about it," said a former assistant coach, who spoke under the condition of anonymity. "It’s one thing to be aggressive in recruiting, but to go this far—it crosses a line."</p>
+            <p>The University of Washington is cooperating with the ongoing investigation, and NCAA officials have already begun reviewing the university's recruitment records. While Fisch has yet to comment publicly on the allegations, several sources within the program have hinted that his leadership could be in jeopardy depending on the outcome of the investigation.</p>
+            <p>"We take these matters very seriously," said UW Athletic Director Jennifer Cohen. "Any behavior that violates NCAA rules or the trust of our athletes will not be tolerated. We are committed to ensuring that the program operates with integrity and transparency."</p>
+            <p>As the story unfolds, fans and analysts alike are questioning whether Fisch’s successful recruiting efforts in the past year were tainted by these alleged illegal practices. The head coach has built a reputation for his aggressive and sometimes unorthodox approach to recruiting, but many are now wondering whether this reputation was fueled by more than just hard work and determination.</p>
+            <p>While some have rallied behind Fisch, saying the scandal could be a case of overzealous tactics misinterpreted by those outside the program, others believe that the allegations could lead to severe penalties for the Huskies football team.</p>
+            <p>"It's tough because Jedd Fisch is a proven coach," said one local sports commentator. "But if these allegations turn out to be true, it could be devastating—not just for Fisch but for the entire program. The NCAA is known for dropping the hammer when it comes to recruiting violations."</p>
+            <p>The University of Washington has not made a formal statement regarding Fisch's future with the program, but sources close to the athletic department suggest that Fisch could face a suspension or even termination if the investigation uncovers clear evidence of wrongdoing.</p>
+            <p>As the story continues to develop, fans are left wondering how this scandal will affect the future of the Huskies' football team. Will Fisch be able to weather the storm, or will this mark the end of his tenure at UW?</p>
+            <p>Stay tuned for further updates on this developing scandal.</p>
+        </div>
+        <p id="prank">APRIL FOOLS! Jedd Fisch is still going to get beat by Dan Lanning! 😆🏈</p>
+        <img id="news-image-end" src="puddles.jpg" alt="April Fools Prank">
+    </div>
+</body>
+</html>
